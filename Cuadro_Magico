@@ -1,0 +1,10 @@
+1. Dado el problema del cuadro mágico:
+
+• Describir la característica de la serie correspondiente a un determinado cuadro.
+La característica de la serie correspondiente a un determinado cuadro mágico es la constante mágica, es decir, la suma de los números en cada fila, columna y diagonal principal de la matriz. En la matriz que se da de ejemplo, la constante magica es 15
+
+• Describir alguna estrategia para resolver cuadros mágicos impares.
+Para resolver cuadros mágicos impares, una estrategia comúnmente utilizada es la técnica de la diagonal. La idea es colocar los números en el cuadrado de manera que los números formen una diagonal que comience en la esquina superior izquierda y termine en la esquina inferior derecha. Luego, se intercambian los números que se encuentran en las posiciones simétricas con respecto al centro del cuadrado. Por ejemplo, en un cuadrado mágico de orden 5, se colocan los números del 1 al 5 en la diagonal superior izquierda y se intercambian los números en las posiciones (2, 4) y (3, 3), (1, 5) y (5, 1), (2, 2) y (4, 4), y (3, 1) y (1, 3). A partir de ahí, se pueden completar las filas y columnas restantes.
+
+Encontrar formula matemática que genere el cuadro mágico dadacualquier serie. 
+Hay varias fórmulas matemáticas que se pueden utilizar para generar cuadros mágicos dados números de serie específicos. Una de las fórmulas más comunes para generar cuadros mágicos impares es la fórmula de Siamese. Esta fórmula se basa en dividir el cuadrado en cuatro cuadrados más pequeños y llenarlos en un patrón específico. Luego, se desplazan los números en cada cuadrado a su posición correcta en el cuadrado completo. La fórmula de Siamese se puede generalizar para cualquier tamaño de cuadrado mágico impar. Sin embargo, para cuadrados mágicos pares, no hay fórmulas conocidas que generen todos los cuadrados mágicos posibles. En su lugar, se utilizan métodos heurísticos o algoritmos de búsqueda para encontrar soluciones
